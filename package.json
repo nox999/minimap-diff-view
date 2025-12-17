@@ -1,0 +1,26 @@
+{
+  "name": "minimap-diff-view",
+  "main": "./lib/minimap-diff-view",
+  "version": "0.0.1",
+  "description": "A minimap plugin for the Diff View package",
+  "repository": "https://github.com/nox999/minimap-diff-view",
+  "license": "MIT",
+  "engines": {
+    "atom": ">= 1.14.0 < 2.0.0"
+  },
+  "consumedServices": {
+    "diff-view": {
+      "versions": {
+        "1.0.0": "consumeDiffView"
+      }
+    },
+    "minimap": {
+      "versions": {
+        "1.0.0": "consumeMinimapServiceV1"
+      }
+    }
+  },
+  "dependencies": {
+    "event-kit": ">= 0.7.2"
+  }
+}
