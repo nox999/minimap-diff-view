@@ -4,6 +4,10 @@ A plugin that adds [Diff View's](https://github.com/asiloisad/pulsar-diff-view) 
 
 ![Minimap Diff View plugin in action](https://github.com/nox999/minimap-diff-view/raw/master/demo.gif)
 
+### Instalation
+
+Close Pulsar. Copy the package to `%USERPROFILE%\.pulsar\packages` (Windows) or `~\.pulsar\packages` (Linux) and run `ppm install` in the package's folder.
+
 ### Customization
 
 The highlighting for this package uses global UI variables defined in your syntax theme. The variables are `@syntax-color-added`, `@syntax-color-removed`, and `@syntax-color-modified`. Make sure your theme defines these, so it is compatible with this package!
@@ -19,3 +23,7 @@ To override these colors in your `styles.less`, write selectors for `.minimap .a
 ### Notes
 
 Both the Diff View and Minimap packages must also be installed and enabled in Pulsar for this package to work.
+
+### Credits
+
+Fork of [minimap-split-diff](https://github.com/mupchrch/minimap-split-diff).
